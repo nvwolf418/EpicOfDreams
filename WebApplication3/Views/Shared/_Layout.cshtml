@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div style="background-image:url(../../Content/Cover_Perf_Little_More_SatMed.jpg);
+  background-size:auto;
+  background-position:center center;
+  background-repeat:no-repeat;
+  box-sizing:inherit;
+  background-attachment:fixed;">
+        <div class="container" style="text-align:center">
+            <a href="~/" style="max-height:200px; max-width:150px;"> <img style="max-height:230px;max-width:180px;" src="~/Content/bannerpng.png" /></a>
+        </div>
+        <div class="container body-content">
+            <div id="Main_Nav" class="navbar navbar-inverse" style="position:sticky;top:0px;z-index:10000;">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("STUFF!", "About", "Home")</li>
+                            <li>@Html.ActionLink("VIDEOS!", "Videos", "Home")</li>
+                            <li>@Html.ActionLink("BLOGS!", "BLOGS", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - THE EPIC OF DREAMS</p>
+            </footer>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
