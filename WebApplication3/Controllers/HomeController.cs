@@ -13,33 +13,53 @@ namespace WebApplication3.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult FeaturedContent()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Welcome To Your Fantasy";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "How to Contact Us";
 
             return View();
         }
 
-        public ActionResult Videos()
+        public ActionResult Shop()
         {
-            ViewBag.Message = "Videos!";
+            ViewBag.Message = "Shop";
 
             return View();
         }
 
         public ActionResult BLOGS()
         {
-            ViewBag.Message = "BLOGS!";
+            ViewBag.Message = "Blogs";
 
             return View();
         }
-        
+
+        public ActionResult News()
+        {
+            ViewBag.Message = "News";
+
+            return View();
+        }
+
+        public ActionResult Forum()
+        {
+            ViewBag.Message = "Forum";
+
+            return View();
+        }
+
+        public ActionResult AboutUs()
+        {
+            ViewBag.Message = "About Us";
+
+            return View();
+        }
     }
 }

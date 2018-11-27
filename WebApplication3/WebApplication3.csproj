@@ -160,6 +160,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\carnagearoxsmall.jpg" />
+    <Content Include="Content\carnagecrsmall.jpg" />
+    <Content Include="Content\carnageguysmall.jpg" />
     <Content Include="Content\Cover_Perf_Little_More_SatMed.jpg" />
     <Content Include="Content\Cover_Perf_Little_More_SatSmall.jpg" />
     <Content Include="Content\muselogopng.png" />
@@ -195,11 +198,14 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\FeaturedContent.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Videos.cshtml" />
+    <Content Include="Views\Home\Shop.cshtml" />
     <Content Include="Views\Home\BLOGS.cshtml" />
+    <Content Include="Views\Home\Forum.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\AboutUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
