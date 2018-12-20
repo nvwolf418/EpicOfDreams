@@ -5,6 +5,15 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    color: #878787;
+    opacity: .83;
+    background-color: black;
+}
+
+
+.jumbotron {
+    border: thin solid #531c54;
+    background-color: black;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -20,3 +29,10 @@ select,
 textarea {
     max-width: 280px;
 }
+
+a {
+    color: #0a9ae7;
+}
+
+
+
